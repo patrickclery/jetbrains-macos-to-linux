@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<keymap version="1" name="My Mac Keymap" parent="Mac OS X 10.5+" disable-mnemonics="true">
+  <action id="$Copy">
+    <keyboard-shortcut first-keystroke="meta C" />
+  </action>
+  <action id="$Paste">
+    <keyboard-shortcut first-keystroke="meta V" />
+  </action>
+  <action id="$Undo">
+    <keyboard-shortcut first-keystroke="meta Z" />
+  </action>
+  <action id="FindInPath">
+    <keyboard-shortcut first-keystroke="meta shift F" />
+  </action>
+  <action id="OptimizeImports">
+    <keyboard-shortcut first-keystroke="meta alt O" />
+  </action>
+  <action id="EditorUp">
+    <keyboard-shortcut first-keystroke="control P" />
+  </action>
+  <action id="GotoDeclaration">
+    <keyboard-shortcut first-keystroke="meta B" />
+    <mouse-shortcut keystroke="meta button1" />
+  </action>
+  <action id="ShowIntentionActions">
+    <keyboard-shortcut first-keystroke="alt ENTER" />
+  </action>
+  <action id="Refactorings.QuickListPopupAction">
+    <keyboard-shortcut first-keystroke="control T" />
+  </action>
+  <action id="ExpandLiveTemplateByTab">
+    <keyboard-shortcut first-keystroke="TAB" />
+  </action>
+  <action id="RunToCursor">
+    <keyboard-shortcut first-keystroke="meta alt F9" />
+  </action>
+  <action id="Vcs.Push">
+    <keyboard-shortcut first-keystroke="meta shift K" />
+  </action>
+  <action id="MethodUp">
+    <keyboard-shortcut first-keystroke="control UP" />
+  </action>
+  <action id="FoldRegionRecursively">
+    <keyboard-shortcut first-keystroke="meta alt MULTIPLY" second-keystroke="1" />
+  </action>
+</keymap>
